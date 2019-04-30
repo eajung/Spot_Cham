@@ -1,13 +1,14 @@
 #!/bin/bash
 # crontab -e
-# */1* * * * sudo 'cd /home/pi/Documents/Spot_Cam/ && git pull'
+# */1 * * * * sudo 'cd /home/pi/Documents/Spot_Cam/ && ./git_pull'
 
 # W1-GPIO - One-wire Interface
 # This requies a 4.7kohm pull-up resistor connected between the GPIO pin and 3.3V supply (e.g., pin 1 and 17) 
-sudo echo "dtoverlay=w1-gpio" >> /boot/config.txt
+# Append "dtoverlay=w1-gpio" >> /boot/config.txt
 
 #sudo reboot
 
+# Follow these commands
 sudo modprobe w1-gpio
 sudo modprobe w1-therm
 cd /sys/bus/w1/devices
