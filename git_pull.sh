@@ -9,7 +9,7 @@ export TERM=${TERM:-dumb}
 # Please set the following variable section
 # Please set up working directories, use','split
 # eg:path="/root/test/path1,/root/test/path2"
-path=""
+path="/home/pi/Spot_Cham"
 #----------------------------------------
 
 # Do not edit the following section
