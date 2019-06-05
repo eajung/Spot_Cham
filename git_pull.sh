@@ -1,5 +1,4 @@
 #!/bin/bash
-
 source /etc/profile
 PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
@@ -9,7 +8,7 @@ export TERM=${TERM:-dumb}
 # Please set the following variable section
 # Please set up working directories, use','split
 # eg:path="/root/test/path1,/root/test/path2"
-path="/home/pi/Spot_Cham"
+path="/home/pi/Documents/Spot_Cham/"
 #----------------------------------------
 
 # Do not edit the following section
